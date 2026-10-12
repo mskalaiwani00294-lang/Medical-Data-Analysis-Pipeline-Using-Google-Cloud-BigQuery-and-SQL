@@ -1,0 +1,2 @@
+# Medical-Data-Analysis-Pipeline-Using-Google-Cloud-BigQuery-and-SQL
+Medical Data Analysis Pipeline using Google Cloud BigQuery and SQL. This project includes data preparation, data cleaning, transformation, and analysis. It analyzes patient demographics, medical conditions, hospital details, billing amounts, and length of stay to generate meaningful business insights and support data-driven decision-making.
