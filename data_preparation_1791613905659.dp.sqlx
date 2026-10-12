@@ -1,0 +1,27 @@
+config {
+  "type":"dataPreparation",
+  "project":"medical-data-analysis-511204",
+  "dataset":"medical_dataset",
+  "name":"medical_data_cleaned",
+  "loadMode":{
+    "mode":"REPLACE_TABLE"
+  }
+}
+FROM `medical-data-analysis-511204`.`medical_dataset`.`medical_row`
+-- Safecast column Age to type INTEGER
+|> SET Age = SAFE_CAST(Age AS INT64)
+-- Safecast column Billing_Amount to type INTEGER
+|> SET Billing_Amount = SAFE_CAST(Billing_Amount AS INT64)
+-- Safecast column Length_of_Stay_Days to type INTEGER
+|> SET Length_of_Stay_Days = SAFE_CAST(Length_of_Stay_Days AS INT64)
+|> SELECT
+  CAST(`Patient_ID` AS STRING) AS `Patient_ID`,
+  CAST(`Age` AS INT64) AS `Age`,
+  CAST(`Gender` AS STRING) AS `Gender`,
+  CAST(`Blood_Group` AS STRING) AS `Blood_Group`,
+  CAST(`Medical_Condition` AS STRING) AS `Medical_Condition`,
+  CAST(`Admission_Type` AS STRING) AS `Admission_Type`,
+  CAST(`Hospital` AS STRING) AS `Hospital`,
+  CAST(`Billing_Amount` AS INT64) AS `Billing_Amount`,
+  CAST(`Length_of_Stay_Days` AS INT64) AS `Length_of_Stay_Days`,
+  CAST(`Test_Result` AS STRING) AS `Test_Result`
