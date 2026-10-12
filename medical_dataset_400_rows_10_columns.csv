@@ -1,0 +1,401 @@
+Patient_ID,Age,Gender,Blood_Group,Medical_Condition,Admission_Type,Hospital,Billing_Amount,Length_of_Stay_Days,Test_Result
+P0001,4,Female,B+,Hypertension,Elective,Green Valley Medical Center,50124,12,Inconclusive
+P0002,12,Female,A-,Heart Disease,Emergency,Metro Care Hospital,96800,10,Inconclusive
+P0003,4,Other,O+,Kidney Stone,Emergency,Lakeside Hospital,69257,9,Inconclusive
+P0004,1,Other,O+,Migraine,Urgent,Riverbank Clinic,76915,13,Normal
+P0005,44,Female,AB-,Pneumonia,Urgent,Riverbank Clinic,48582,2,Normal
+P0006,69,Other,AB+,Anemia,Elective,Hope Multispecialty Hospital,17991,2,Inconclusive
+P0007,9,Male,A-,Pneumonia,Emergency,Green Valley Medical Center,46241,1,Abnormal
+P0008,59,Male,AB-,Migraine,Emergency,Riverbank Clinic,46898,11,Inconclusive
+P0009,78,Other,B-,Hypertension,Emergency,Lakeside Hospital,47251,11,Abnormal
+P0010,82,Other,AB-,Migraine,Emergency,Metro Care Hospital,60570,12,Normal
+P0011,52,Other,AB-,Arthritis,Emergency,Lakeside Hospital,29811,5,Abnormal
+P0012,19,Other,AB+,Anemia,Elective,Central Medical Institute,25895,5,Inconclusive
+P0013,47,Male,A-,Gastritis,Emergency,Green Valley Medical Center,23812,4,Normal
+P0014,88,Male,O+,Asthma,Elective,Lakeside Hospital,48734,7,Inconclusive
+P0015,71,Other,A-,Migraine,Elective,Riverbank Clinic,45003,14,Inconclusive
+P0016,15,Male,A+,Arthritis,Elective,Riverbank Clinic,36491,5,Inconclusive
+P0017,65,Other,B-,Asthma,Emergency,Hope Multispecialty Hospital,31611,2,Normal
+P0018,68,Male,A+,Heart Disease,Emergency,Hope Multispecialty Hospital,70563,1,Abnormal
+P0019,8,Female,O-,Pneumonia,Emergency,Sunrise Hospital,55782,4,Normal
+P0020,71,Other,O+,Anemia,Emergency,Metro Care Hospital,27300,3,Inconclusive
+P0021,52,Male,O-,Migraine,Emergency,Metro Care Hospital,63189,11,Normal
+P0022,44,Female,B-,Hypertension,Emergency,Green Valley Medical Center,24284,1,Inconclusive
+P0023,30,Female,B-,Diabetes,Urgent,Lakeside Hospital,23269,2,Normal
+P0024,17,Male,B-,Heart Disease,Urgent,Central Medical Institute,120096,12,Normal
+P0025,13,Male,O+,Hypertension,Urgent,City General Hospital,56019,11,Inconclusive
+P0026,8,Female,B-,Hypertension,Emergency,Metro Care Hospital,50033,7,Inconclusive
+P0027,18,Male,B-,Anemia,Emergency,Lakeside Hospital,32420,7,Inconclusive
+P0028,7,Female,B-,Hypertension,Emergency,Central Medical Institute,55395,11,Abnormal
+P0029,28,Female,O+,Anemia,Emergency,Central Medical Institute,59148,14,Abnormal
+P0030,37,Other,O-,Anemia,Emergency,Metro Care Hospital,54539,7,Abnormal
+P0031,8,Female,AB-,Pneumonia,Emergency,City General Hospital,95013,10,Inconclusive
+P0032,65,Female,A-,Anemia,Emergency,Green Valley Medical Center,68229,14,Inconclusive
+P0033,87,Female,B-,Hypertension,Elective,City General Hospital,56297,14,Inconclusive
+P0034,54,Other,AB-,Hypertension,Urgent,Metro Care Hospital,66350,11,Inconclusive
+P0035,31,Other,AB+,Arthritis,Urgent,Hope Multispecialty Hospital,35249,5,Normal
+P0036,59,Female,B-,Diabetes,Elective,Riverbank Clinic,56698,10,Normal
+P0037,9,Female,O-,Arthritis,Elective,Riverbank Clinic,33921,4,Inconclusive
+P0038,2,Male,A-,Heart Disease,Emergency,Riverbank Clinic,126692,11,Normal
+P0039,71,Other,B-,Hypertension,Elective,Hope Multispecialty Hospital,24361,3,Normal
+P0040,65,Female,O+,Migraine,Urgent,City General Hospital,31456,8,Normal
+P0041,17,Other,O-,Arthritis,Elective,Central Medical Institute,50239,11,Inconclusive
+P0042,15,Other,A+,Diabetes,Urgent,Sunrise Hospital,25702,2,Abnormal
+P0043,6,Male,B-,Asthma,Elective,Metro Care Hospital,35118,5,Inconclusive
+P0044,46,Other,B+,Hypertension,Emergency,Sunrise Hospital,70867,13,Normal
+P0045,4,Male,B-,Gastritis,Urgent,Sunrise Hospital,25890,3,Inconclusive
+P0046,49,Female,B-,Hypertension,Urgent,Hope Multispecialty Hospital,46123,14,Abnormal
+P0047,29,Male,AB-,Pneumonia,Urgent,Green Valley Medical Center,45667,1,Abnormal
+P0048,83,Other,AB-,Arthritis,Emergency,Green Valley Medical Center,58066,9,Abnormal
+P0049,75,Other,O+,Asthma,Urgent,Hope Multispecialty Hospital,29556,5,Abnormal
+P0050,66,Female,AB+,Kidney Stone,Emergency,Central Medical Institute,50200,2,Normal
+P0051,69,Other,B-,Heart Disease,Urgent,Central Medical Institute,125362,11,Normal
+P0052,80,Other,AB+,Arthritis,Elective,Riverbank Clinic,45143,6,Inconclusive
+P0053,42,Other,B+,Gastritis,Emergency,Central Medical Institute,43429,7,Inconclusive
+P0054,87,Other,AB+,Gastritis,Urgent,City General Hospital,46228,12,Abnormal
+P0055,27,Other,AB-,Migraine,Urgent,Lakeside Hospital,52628,7,Abnormal
+P0056,66,Female,A-,Pneumonia,Urgent,Hope Multispecialty Hospital,90465,8,Normal
+P0057,87,Female,A+,Pneumonia,Emergency,Metro Care Hospital,54862,5,Abnormal
+P0058,10,Other,B-,Kidney Stone,Elective,Central Medical Institute,72294,8,Abnormal
+P0059,32,Female,A-,Gastritis,Urgent,Metro Care Hospital,30727,3,Normal
+P0060,60,Female,O-,Heart Disease,Emergency,Lakeside Hospital,69165,1,Inconclusive
+P0061,72,Male,O+,Heart Disease,Elective,Lakeside Hospital,104364,10,Normal
+P0062,58,Other,AB+,Anemia,Elective,Lakeside Hospital,38445,5,Inconclusive
+P0063,36,Male,B-,Pneumonia,Urgent,Hope Multispecialty Hospital,66626,8,Abnormal
+P0064,11,Male,B+,Heart Disease,Elective,Metro Care Hospital,72039,3,Normal
+P0065,53,Male,A+,Gastritis,Emergency,Central Medical Institute,37765,6,Abnormal
+P0066,90,Male,O-,Kidney Stone,Emergency,Hope Multispecialty Hospital,48367,1,Abnormal
+P0067,54,Other,B-,Gastritis,Urgent,Metro Care Hospital,61785,9,Abnormal
+P0068,63,Other,O+,Gastritis,Elective,Sunrise Hospital,14899,1,Abnormal
+P0069,80,Other,A+,Asthma,Emergency,Central Medical Institute,41645,9,Normal
+P0070,24,Male,B-,Anemia,Urgent,Hope Multispecialty Hospital,19076,1,Abnormal
+P0071,36,Female,O-,Gastritis,Emergency,City General Hospital,55971,13,Abnormal
+P0072,84,Female,A+,Pneumonia,Emergency,Metro Care Hospital,58676,2,Normal
+P0073,20,Other,A-,Kidney Stone,Elective,Metro Care Hospital,51026,4,Abnormal
+P0074,48,Other,A-,Migraine,Emergency,Riverbank Clinic,30792,3,Normal
+P0075,4,Male,O+,Kidney Stone,Elective,Metro Care Hospital,65887,5,Normal
+P0076,89,Female,AB+,Kidney Stone,Elective,Green Valley Medical Center,99144,14,Inconclusive
+P0077,45,Male,A-,Diabetes,Elective,Hope Multispecialty Hospital,56824,9,Normal
+P0078,63,Other,O-,Gastritis,Elective,Sunrise Hospital,19084,2,Abnormal
+P0079,67,Other,O-,Asthma,Urgent,Central Medical Institute,60057,11,Inconclusive
+P0080,35,Male,O-,Kidney Stone,Emergency,Lakeside Hospital,52249,6,Inconclusive
+P0081,86,Male,AB-,Kidney Stone,Emergency,Lakeside Hospital,56709,7,Normal
+P0082,34,Other,AB+,Arthritis,Elective,City General Hospital,43437,6,Inconclusive
+P0083,11,Male,B-,Pneumonia,Elective,Lakeside Hospital,63654,4,Inconclusive
+P0084,58,Male,B-,Anemia,Urgent,Metro Care Hospital,35834,13,Abnormal
+P0085,48,Male,O+,Kidney Stone,Elective,Hope Multispecialty Hospital,75234,8,Abnormal
+P0086,35,Female,B-,Anemia,Urgent,Green Valley Medical Center,27922,5,Inconclusive
+P0087,89,Other,O-,Heart Disease,Urgent,Riverbank Clinic,72297,3,Normal
+P0088,38,Male,A+,Pneumonia,Elective,Sunrise Hospital,54051,4,Abnormal
+P0089,7,Female,O-,Diabetes,Emergency,City General Hospital,52390,9,Inconclusive
+P0090,61,Female,A+,Migraine,Urgent,Lakeside Hospital,42414,8,Normal
+P0091,52,Other,A+,Hypertension,Emergency,Sunrise Hospital,37277,8,Inconclusive
+P0092,11,Male,B-,Migraine,Elective,Central Medical Institute,26283,4,Abnormal
+P0093,39,Male,A+,Anemia,Elective,Green Valley Medical Center,75965,14,Normal
+P0094,34,Female,B+,Pneumonia,Elective,Green Valley Medical Center,64025,11,Normal
+P0095,53,Male,AB+,Diabetes,Emergency,Metro Care Hospital,60713,8,Abnormal
+P0096,90,Other,B-,Migraine,Urgent,Metro Care Hospital,60392,14,Abnormal
+P0097,70,Male,B+,Hypertension,Emergency,City General Hospital,31249,4,Normal
+P0098,77,Male,O-,Migraine,Emergency,Lakeside Hospital,79437,12,Inconclusive
+P0099,90,Other,O-,Migraine,Urgent,Green Valley Medical Center,36604,7,Inconclusive
+P0100,56,Male,A+,Diabetes,Emergency,Metro Care Hospital,61331,12,Inconclusive
+P0101,76,Male,A+,Kidney Stone,Emergency,Lakeside Hospital,49946,1,Inconclusive
+P0102,36,Other,O-,Anemia,Emergency,Lakeside Hospital,29732,3,Abnormal
+P0103,43,Female,AB-,Gastritis,Urgent,Lakeside Hospital,34977,6,Abnormal
+P0104,71,Male,AB+,Gastritis,Urgent,Green Valley Medical Center,11104,1,Abnormal
+P0105,1,Male,A+,Heart Disease,Emergency,Hope Multispecialty Hospital,112811,11,Inconclusive
+P0106,81,Female,AB+,Anemia,Elective,Sunrise Hospital,50141,8,Abnormal
+P0107,90,Other,B-,Anemia,Elective,Sunrise Hospital,28848,8,Abnormal
+P0108,2,Female,A-,Heart Disease,Urgent,Green Valley Medical Center,93766,9,Inconclusive
+P0109,64,Other,AB+,Asthma,Urgent,Lakeside Hospital,62277,12,Abnormal
+P0110,59,Female,B+,Pneumonia,Emergency,Riverbank Clinic,65812,9,Abnormal
+P0111,65,Male,AB+,Arthritis,Elective,Lakeside Hospital,41842,5,Normal
+P0112,69,Other,O+,Anemia,Urgent,Hope Multispecialty Hospital,41150,8,Normal
+P0113,74,Male,A+,Pneumonia,Urgent,Lakeside Hospital,69998,7,Inconclusive
+P0114,50,Female,O-,Gastritis,Emergency,Sunrise Hospital,72177,11,Inconclusive
+P0115,43,Female,O-,Kidney Stone,Emergency,Sunrise Hospital,72167,14,Abnormal
+P0116,10,Male,O+,Asthma,Elective,Green Valley Medical Center,62350,8,Abnormal
+P0117,49,Male,A+,Heart Disease,Elective,Green Valley Medical Center,98977,6,Normal
+P0118,30,Female,A-,Migraine,Urgent,Sunrise Hospital,41150,12,Inconclusive
+P0119,4,Male,AB-,Migraine,Urgent,Central Medical Institute,12047,1,Normal
+P0120,68,Female,B+,Pneumonia,Emergency,Green Valley Medical Center,77996,7,Inconclusive
+P0121,80,Other,B+,Gastritis,Emergency,Lakeside Hospital,44799,11,Inconclusive
+P0122,59,Male,AB+,Migraine,Elective,Sunrise Hospital,30808,5,Normal
+P0123,45,Male,AB+,Anemia,Urgent,Riverbank Clinic,50718,10,Normal
+P0124,62,Other,AB-,Gastritis,Elective,Riverbank Clinic,17790,2,Inconclusive
+P0125,3,Male,A+,Migraine,Elective,City General Hospital,77428,14,Inconclusive
+P0126,37,Other,AB-,Anemia,Emergency,Metro Care Hospital,79706,13,Inconclusive
+P0127,87,Other,B+,Migraine,Elective,Green Valley Medical Center,82350,13,Inconclusive
+P0128,40,Other,AB-,Diabetes,Elective,Sunrise Hospital,61411,13,Normal
+P0129,42,Female,B+,Migraine,Elective,Hope Multispecialty Hospital,52889,12,Inconclusive
+P0130,35,Male,AB+,Heart Disease,Elective,Hope Multispecialty Hospital,99832,14,Normal
+P0131,10,Other,O+,Anemia,Elective,Hope Multispecialty Hospital,28363,3,Normal
+P0132,2,Male,AB-,Gastritis,Elective,Riverbank Clinic,28009,5,Inconclusive
+P0133,82,Female,O-,Gastritis,Emergency,Hope Multispecialty Hospital,30514,6,Inconclusive
+P0134,83,Other,AB+,Pneumonia,Elective,Central Medical Institute,54410,2,Normal
+P0135,6,Female,A-,Asthma,Emergency,Sunrise Hospital,29117,1,Abnormal
+P0136,48,Other,O+,Anemia,Elective,Sunrise Hospital,74684,11,Abnormal
+P0137,63,Female,AB-,Hypertension,Emergency,Lakeside Hospital,50293,10,Abnormal
+P0138,47,Other,AB-,Pneumonia,Emergency,Central Medical Institute,53234,2,Abnormal
+P0139,16,Female,B-,Pneumonia,Elective,City General Hospital,117900,14,Normal
+P0140,32,Female,A-,Arthritis,Elective,Metro Care Hospital,40319,3,Inconclusive
+P0141,30,Other,A+,Pneumonia,Urgent,Sunrise Hospital,70243,6,Normal
+P0142,33,Other,A+,Heart Disease,Emergency,City General Hospital,95483,13,Abnormal
+P0143,76,Male,A+,Pneumonia,Emergency,Central Medical Institute,52038,6,Inconclusive
+P0144,9,Male,A-,Hypertension,Urgent,Metro Care Hospital,52835,8,Inconclusive
+P0145,85,Other,A+,Diabetes,Emergency,Lakeside Hospital,48819,9,Abnormal
+P0146,88,Male,A-,Gastritis,Emergency,Hope Multispecialty Hospital,25287,2,Inconclusive
+P0147,9,Other,AB-,Asthma,Urgent,Riverbank Clinic,37006,3,Abnormal
+P0148,78,Other,A-,Heart Disease,Elective,Metro Care Hospital,89436,7,Abnormal
+P0149,30,Male,O+,Anemia,Elective,Green Valley Medical Center,39746,7,Abnormal
+P0150,41,Female,O-,Gastritis,Emergency,Green Valley Medical Center,43416,11,Normal
+P0151,56,Male,B+,Hypertension,Elective,City General Hospital,32802,2,Inconclusive
+P0152,72,Male,AB-,Heart Disease,Elective,Central Medical Institute,90266,6,Inconclusive
+P0153,37,Female,B-,Diabetes,Emergency,Lakeside Hospital,50551,10,Normal
+P0154,45,Female,AB+,Hypertension,Elective,Metro Care Hospital,74114,14,Abnormal
+P0155,80,Other,A+,Heart Disease,Elective,Riverbank Clinic,117169,10,Normal
+P0156,35,Male,AB-,Asthma,Emergency,Sunrise Hospital,82126,12,Normal
+P0157,85,Other,A+,Kidney Stone,Emergency,Metro Care Hospital,50919,7,Abnormal
+P0158,59,Male,AB-,Gastritis,Elective,Green Valley Medical Center,26726,6,Normal
+P0159,21,Other,A-,Asthma,Urgent,Lakeside Hospital,75105,13,Inconclusive
+P0160,63,Male,B-,Gastritis,Elective,Green Valley Medical Center,48885,10,Abnormal
+P0161,15,Other,O-,Gastritis,Elective,Riverbank Clinic,40001,5,Normal
+P0162,51,Female,AB+,Pneumonia,Emergency,Sunrise Hospital,58365,10,Abnormal
+P0163,42,Other,O+,Migraine,Emergency,Sunrise Hospital,19811,2,Abnormal
+P0164,30,Male,A-,Heart Disease,Urgent,City General Hospital,108737,9,Abnormal
+P0165,59,Male,O+,Diabetes,Elective,Central Medical Institute,29597,2,Abnormal
+P0166,52,Other,O-,Hypertension,Elective,Hope Multispecialty Hospital,16945,1,Normal
+P0167,14,Male,A-,Gastritis,Urgent,Riverbank Clinic,29984,4,Inconclusive
+P0168,29,Female,A-,Arthritis,Elective,Metro Care Hospital,48700,6,Abnormal
+P0169,83,Female,B+,Arthritis,Urgent,Metro Care Hospital,53527,14,Normal
+P0170,20,Female,B+,Kidney Stone,Elective,Lakeside Hospital,108556,13,Abnormal
+P0171,75,Other,AB-,Kidney Stone,Elective,Hope Multispecialty Hospital,79960,8,Normal
+P0172,9,Male,AB+,Anemia,Elective,City General Hospital,49232,8,Abnormal
+P0173,10,Female,A+,Heart Disease,Urgent,Riverbank Clinic,86859,5,Normal
+P0174,79,Male,A+,Hypertension,Urgent,Metro Care Hospital,56059,10,Abnormal
+P0175,61,Male,A-,Kidney Stone,Urgent,Green Valley Medical Center,56766,9,Inconclusive
+P0176,6,Male,B+,Asthma,Urgent,Hope Multispecialty Hospital,43964,4,Abnormal
+P0177,53,Other,A+,Gastritis,Elective,Hope Multispecialty Hospital,58528,13,Normal
+P0178,13,Male,AB+,Arthritis,Elective,Sunrise Hospital,63535,9,Abnormal
+P0179,75,Male,O+,Hypertension,Emergency,Green Valley Medical Center,42900,11,Abnormal
+P0180,49,Female,A-,Heart Disease,Elective,Central Medical Institute,121843,11,Inconclusive
+P0181,3,Female,AB-,Arthritis,Urgent,Metro Care Hospital,37343,6,Normal
+P0182,20,Female,A+,Asthma,Elective,Hope Multispecialty Hospital,36934,2,Inconclusive
+P0183,77,Female,B+,Asthma,Elective,Lakeside Hospital,37675,7,Normal
+P0184,47,Male,AB+,Gastritis,Elective,Lakeside Hospital,62108,11,Normal
+P0185,31,Male,B-,Heart Disease,Urgent,Lakeside Hospital,99411,5,Abnormal
+P0186,49,Female,B-,Migraine,Elective,Sunrise Hospital,50499,9,Abnormal
+P0187,83,Female,A-,Diabetes,Urgent,Green Valley Medical Center,49645,8,Normal
+P0188,58,Female,B-,Migraine,Urgent,Hope Multispecialty Hospital,36794,9,Normal
+P0189,7,Female,O+,Gastritis,Emergency,Hope Multispecialty Hospital,39118,7,Normal
+P0190,41,Male,B+,Diabetes,Emergency,City General Hospital,34102,2,Abnormal
+P0191,90,Other,O-,Anemia,Urgent,City General Hospital,55584,14,Normal
+P0192,33,Other,O+,Diabetes,Emergency,Riverbank Clinic,32639,4,Normal
+P0193,16,Other,O-,Migraine,Emergency,Green Valley Medical Center,17654,1,Abnormal
+P0194,69,Other,B-,Kidney Stone,Elective,Sunrise Hospital,46831,1,Abnormal
+P0195,1,Other,O+,Gastritis,Emergency,Green Valley Medical Center,42391,10,Inconclusive
+P0196,9,Other,A+,Arthritis,Urgent,Lakeside Hospital,60564,9,Normal
+P0197,48,Male,A-,Gastritis,Urgent,Metro Care Hospital,30571,5,Inconclusive
+P0198,75,Female,A+,Hypertension,Urgent,Hope Multispecialty Hospital,75235,12,Inconclusive
+P0199,88,Other,B+,Asthma,Emergency,Green Valley Medical Center,63024,8,Inconclusive
+P0200,5,Female,A+,Anemia,Urgent,Riverbank Clinic,23842,5,Inconclusive
+P0201,70,Other,B-,Gastritis,Urgent,Hope Multispecialty Hospital,29295,8,Normal
+P0202,35,Male,O+,Arthritis,Elective,Lakeside Hospital,32177,2,Abnormal
+P0203,24,Male,AB+,Arthritis,Emergency,Central Medical Institute,61223,8,Normal
+P0204,78,Male,AB-,Gastritis,Emergency,Green Valley Medical Center,50483,14,Abnormal
+P0205,40,Male,B+,Migraine,Elective,Lakeside Hospital,53902,8,Abnormal
+P0206,6,Male,AB+,Anemia,Elective,City General Hospital,59001,12,Normal
+P0207,47,Other,B+,Gastritis,Emergency,Sunrise Hospital,64015,9,Inconclusive
+P0208,5,Other,AB-,Anemia,Urgent,Central Medical Institute,20091,3,Inconclusive
+P0209,78,Male,AB-,Diabetes,Urgent,Green Valley Medical Center,35114,3,Inconclusive
+P0210,68,Other,AB+,Asthma,Emergency,Green Valley Medical Center,43730,6,Normal
+P0211,64,Female,AB+,Asthma,Urgent,Lakeside Hospital,57667,9,Normal
+P0212,37,Female,B+,Kidney Stone,Emergency,Lakeside Hospital,83011,12,Normal
+P0213,12,Other,AB-,Anemia,Elective,Green Valley Medical Center,74945,13,Inconclusive
+P0214,38,Other,B+,Heart Disease,Urgent,Metro Care Hospital,84887,5,Normal
+P0215,18,Female,AB-,Pneumonia,Elective,Hope Multispecialty Hospital,66242,4,Abnormal
+P0216,17,Male,O+,Heart Disease,Elective,Lakeside Hospital,83607,10,Inconclusive
+P0217,53,Female,AB-,Gastritis,Elective,Green Valley Medical Center,65364,14,Abnormal
+P0218,88,Other,B+,Anemia,Emergency,Central Medical Institute,41001,9,Inconclusive
+P0219,16,Female,B+,Diabetes,Urgent,Metro Care Hospital,40816,9,Abnormal
+P0220,37,Female,AB+,Heart Disease,Emergency,Riverbank Clinic,94827,14,Inconclusive
+P0221,12,Other,B+,Heart Disease,Emergency,Hope Multispecialty Hospital,103587,9,Inconclusive
+P0222,4,Other,AB+,Diabetes,Elective,Metro Care Hospital,28481,2,Inconclusive
+P0223,80,Other,AB+,Gastritis,Elective,Riverbank Clinic,35323,11,Abnormal
+P0224,88,Female,A+,Pneumonia,Emergency,Lakeside Hospital,66556,7,Abnormal
+P0225,60,Female,AB-,Anemia,Elective,Hope Multispecialty Hospital,32711,4,Inconclusive
+P0226,52,Other,A-,Arthritis,Urgent,Metro Care Hospital,36815,3,Abnormal
+P0227,35,Female,A+,Hypertension,Urgent,Central Medical Institute,35828,8,Inconclusive
+P0228,32,Other,AB-,Gastritis,Emergency,Sunrise Hospital,45720,14,Abnormal
+P0229,60,Female,A-,Heart Disease,Urgent,Lakeside Hospital,93652,8,Normal
+P0230,75,Male,O-,Pneumonia,Elective,Lakeside Hospital,50822,6,Abnormal
+P0231,2,Female,AB+,Heart Disease,Elective,Hope Multispecialty Hospital,99420,14,Abnormal
+P0232,6,Other,B-,Arthritis,Urgent,Riverbank Clinic,39406,7,Normal
+P0233,65,Male,A-,Gastritis,Emergency,Green Valley Medical Center,54448,8,Abnormal
+P0234,44,Female,B-,Arthritis,Elective,Central Medical Institute,58042,9,Inconclusive
+P0235,6,Male,O-,Diabetes,Elective,Lakeside Hospital,28052,1,Normal
+P0236,66,Male,B+,Kidney Stone,Urgent,Riverbank Clinic,53473,3,Inconclusive
+P0237,65,Male,AB+,Arthritis,Urgent,City General Hospital,79139,14,Abnormal
+P0238,87,Male,A+,Arthritis,Elective,Lakeside Hospital,32575,2,Abnormal
+P0239,74,Other,O-,Kidney Stone,Emergency,Central Medical Institute,53857,4,Normal
+P0240,5,Female,A+,Pneumonia,Urgent,Hope Multispecialty Hospital,86490,10,Abnormal
+P0241,53,Other,O-,Asthma,Elective,City General Hospital,56343,12,Inconclusive
+P0242,67,Other,O-,Asthma,Elective,Central Medical Institute,39713,4,Abnormal
+P0243,59,Male,AB+,Asthma,Elective,Lakeside Hospital,55768,9,Normal
+P0244,36,Male,AB+,Pneumonia,Elective,Metro Care Hospital,68882,9,Inconclusive
+P0245,41,Other,AB+,Anemia,Urgent,Green Valley Medical Center,45007,8,Inconclusive
+P0246,49,Female,AB+,Heart Disease,Emergency,Riverbank Clinic,102718,7,Inconclusive
+P0247,45,Other,O-,Hypertension,Emergency,Metro Care Hospital,51089,8,Inconclusive
+P0248,72,Female,B-,Migraine,Emergency,City General Hospital,45193,12,Inconclusive
+P0249,29,Female,O+,Heart Disease,Urgent,Lakeside Hospital,92143,11,Normal
+P0250,1,Other,O-,Asthma,Urgent,Metro Care Hospital,46680,9,Abnormal
+P0251,37,Female,B-,Arthritis,Elective,City General Hospital,51056,11,Normal
+P0252,23,Male,B+,Gastritis,Elective,Riverbank Clinic,22335,1,Normal
+P0253,39,Male,AB+,Diabetes,Urgent,Lakeside Hospital,58438,10,Normal
+P0254,60,Male,B+,Heart Disease,Elective,Lakeside Hospital,75790,5,Inconclusive
+P0255,24,Male,B-,Migraine,Emergency,Central Medical Institute,18340,1,Abnormal
+P0256,42,Female,B+,Heart Disease,Emergency,Lakeside Hospital,78847,2,Abnormal
+P0257,1,Male,AB+,Pneumonia,Urgent,Riverbank Clinic,58713,5,Inconclusive
+P0258,2,Other,B-,Kidney Stone,Emergency,Green Valley Medical Center,62275,5,Abnormal
+P0259,21,Other,AB+,Migraine,Elective,Green Valley Medical Center,48503,7,Inconclusive
+P0260,48,Female,O-,Migraine,Emergency,Lakeside Hospital,38630,10,Inconclusive
+P0261,48,Male,B-,Kidney Stone,Emergency,Green Valley Medical Center,75723,7,Inconclusive
+P0262,68,Other,A-,Anemia,Emergency,Metro Care Hospital,50651,12,Inconclusive
+P0263,20,Male,A-,Heart Disease,Elective,Metro Care Hospital,78954,3,Inconclusive
+P0264,63,Female,O-,Kidney Stone,Emergency,Central Medical Institute,49078,2,Abnormal
+P0265,8,Male,A+,Kidney Stone,Urgent,Riverbank Clinic,78259,9,Normal
+P0266,75,Male,A-,Pneumonia,Elective,City General Hospital,48911,2,Normal
+P0267,5,Female,O+,Anemia,Urgent,Central Medical Institute,30318,5,Abnormal
+P0268,49,Other,B+,Gastritis,Elective,Hope Multispecialty Hospital,26034,2,Normal
+P0269,69,Other,B-,Asthma,Emergency,City General Hospital,47848,7,Abnormal
+P0270,87,Other,O+,Anemia,Emergency,Metro Care Hospital,65308,12,Abnormal
+P0271,20,Female,A+,Arthritis,Elective,Central Medical Institute,40738,5,Inconclusive
+P0272,31,Other,A+,Diabetes,Urgent,City General Hospital,23953,4,Normal
+P0273,52,Female,A+,Diabetes,Emergency,Riverbank Clinic,44915,8,Normal
+P0274,41,Other,AB-,Kidney Stone,Emergency,Riverbank Clinic,89147,10,Normal
+P0275,29,Female,B+,Heart Disease,Elective,Central Medical Institute,86718,7,Inconclusive
+P0276,7,Male,AB-,Anemia,Elective,Central Medical Institute,47609,6,Abnormal
+P0277,39,Other,O-,Asthma,Emergency,Metro Care Hospital,48231,7,Abnormal
+P0278,60,Male,B+,Asthma,Urgent,Metro Care Hospital,28864,1,Abnormal
+P0279,43,Male,A-,Pneumonia,Elective,Metro Care Hospital,68722,11,Normal
+P0280,49,Female,A-,Migraine,Emergency,Metro Care Hospital,64925,11,Abnormal
+P0281,43,Female,A-,Pneumonia,Elective,Lakeside Hospital,50780,5,Normal
+P0282,27,Male,AB+,Kidney Stone,Urgent,Lakeside Hospital,62505,7,Inconclusive
+P0283,40,Male,O-,Arthritis,Emergency,Lakeside Hospital,40766,5,Abnormal
+P0284,48,Other,B-,Pneumonia,Elective,Sunrise Hospital,59719,6,Normal
+P0285,71,Male,AB+,Migraine,Emergency,Metro Care Hospital,61516,10,Abnormal
+P0286,49,Other,AB-,Pneumonia,Urgent,Lakeside Hospital,74240,10,Inconclusive
+P0287,59,Female,B+,Anemia,Elective,Lakeside Hospital,30173,3,Normal
+P0288,83,Female,A+,Heart Disease,Emergency,Central Medical Institute,65500,1,Normal
+P0289,9,Female,O-,Pneumonia,Urgent,City General Hospital,67165,12,Inconclusive
+P0290,62,Female,O+,Kidney Stone,Emergency,City General Hospital,76035,11,Inconclusive
+P0291,69,Other,O+,Migraine,Emergency,Green Valley Medical Center,25578,5,Normal
+P0292,20,Other,AB+,Heart Disease,Urgent,Riverbank Clinic,81498,4,Abnormal
+P0293,48,Female,B-,Hypertension,Urgent,Green Valley Medical Center,46016,7,Inconclusive
+P0294,12,Other,O-,Diabetes,Emergency,City General Hospital,43650,7,Inconclusive
+P0295,11,Male,A-,Asthma,Elective,City General Hospital,57182,8,Normal
+P0296,89,Female,A-,Pneumonia,Elective,Riverbank Clinic,79911,10,Inconclusive
+P0297,85,Female,B-,Kidney Stone,Elective,Sunrise Hospital,41686,1,Inconclusive
+P0298,10,Female,O+,Gastritis,Elective,Hope Multispecialty Hospital,27564,5,Abnormal
+P0299,89,Other,AB-,Asthma,Emergency,Green Valley Medical Center,51656,12,Abnormal
+P0300,10,Other,O+,Pneumonia,Urgent,City General Hospital,76267,6,Inconclusive
+P0301,58,Other,O+,Migraine,Urgent,Sunrise Hospital,35701,8,Inconclusive
+P0302,85,Other,AB+,Kidney Stone,Emergency,Green Valley Medical Center,61708,7,Normal
+P0303,20,Other,B+,Migraine,Elective,Central Medical Institute,53848,7,Abnormal
+P0304,14,Male,AB-,Arthritis,Urgent,Green Valley Medical Center,24692,2,Normal
+P0305,24,Other,O+,Hypertension,Emergency,City General Hospital,45591,7,Normal
+P0306,71,Male,O+,Arthritis,Emergency,Riverbank Clinic,34288,2,Abnormal
+P0307,11,Other,B+,Gastritis,Elective,Central Medical Institute,59069,12,Normal
+P0308,35,Female,A-,Asthma,Emergency,Central Medical Institute,40574,5,Abnormal
+P0309,39,Male,AB+,Gastritis,Emergency,Lakeside Hospital,47300,8,Inconclusive
+P0310,26,Male,A+,Kidney Stone,Urgent,Hope Multispecialty Hospital,54123,8,Inconclusive
+P0311,43,Other,B+,Gastritis,Urgent,Hope Multispecialty Hospital,38423,8,Inconclusive
+P0312,62,Male,AB+,Pneumonia,Elective,Lakeside Hospital,59686,6,Inconclusive
+P0313,42,Male,AB-,Pneumonia,Emergency,Metro Care Hospital,71511,7,Inconclusive
+P0314,24,Female,O-,Heart Disease,Elective,Metro Care Hospital,124396,11,Abnormal
+P0315,89,Other,O-,Migraine,Emergency,Riverbank Clinic,25011,2,Normal
+P0316,85,Male,A-,Migraine,Urgent,Lakeside Hospital,29119,3,Inconclusive
+P0317,69,Other,A+,Gastritis,Urgent,Green Valley Medical Center,54550,9,Normal
+P0318,85,Other,A+,Pneumonia,Elective,Central Medical Institute,76519,11,Abnormal
+P0319,14,Female,B-,Gastritis,Urgent,Hope Multispecialty Hospital,12442,1,Abnormal
+P0320,87,Female,AB-,Anemia,Emergency,Lakeside Hospital,64479,10,Normal
+P0321,54,Female,AB-,Migraine,Urgent,Hope Multispecialty Hospital,24512,2,Abnormal
+P0322,67,Female,O-,Pneumonia,Elective,Lakeside Hospital,71609,8,Abnormal
+P0323,39,Female,A+,Hypertension,Urgent,Green Valley Medical Center,27763,1,Inconclusive
+P0324,32,Female,AB-,Asthma,Elective,Central Medical Institute,49668,9,Abnormal
+P0325,52,Other,O+,Pneumonia,Urgent,City General Hospital,69158,11,Inconclusive
+P0326,26,Male,A+,Kidney Stone,Elective,Metro Care Hospital,74837,8,Normal
+P0327,9,Female,AB-,Migraine,Urgent,Metro Care Hospital,38956,10,Abnormal
+P0328,34,Other,AB-,Hypertension,Elective,Central Medical Institute,61490,11,Inconclusive
+P0329,76,Male,B+,Gastritis,Elective,Riverbank Clinic,18216,2,Inconclusive
+P0330,11,Female,B-,Kidney Stone,Urgent,Green Valley Medical Center,64959,11,Normal
+P0331,89,Male,B+,Arthritis,Elective,Central Medical Institute,34040,3,Abnormal
+P0332,63,Other,B+,Asthma,Elective,Sunrise Hospital,73372,11,Abnormal
+P0333,18,Other,A+,Migraine,Urgent,City General Hospital,24653,3,Abnormal
+P0334,25,Other,O-,Asthma,Urgent,Lakeside Hospital,74408,14,Abnormal
+P0335,63,Female,B-,Anemia,Urgent,City General Hospital,25677,3,Abnormal
+P0336,69,Male,O-,Pneumonia,Elective,Green Valley Medical Center,63231,5,Inconclusive
+P0337,35,Other,A+,Hypertension,Elective,Lakeside Hospital,69322,13,Inconclusive
+P0338,55,Female,AB+,Pneumonia,Emergency,Lakeside Hospital,58337,2,Abnormal
+P0339,12,Female,B-,Arthritis,Elective,Hope Multispecialty Hospital,46947,8,Inconclusive
+P0340,81,Female,B-,Kidney Stone,Emergency,City General Hospital,61448,7,Inconclusive
+P0341,69,Female,AB-,Arthritis,Elective,Riverbank Clinic,46047,5,Abnormal
+P0342,35,Female,B+,Kidney Stone,Urgent,City General Hospital,99827,14,Abnormal
+P0343,90,Female,AB-,Asthma,Emergency,Central Medical Institute,54892,14,Abnormal
+P0344,74,Male,O+,Asthma,Urgent,Green Valley Medical Center,60186,11,Inconclusive
+P0345,52,Other,AB-,Hypertension,Urgent,Lakeside Hospital,59397,9,Abnormal
+P0346,1,Female,O-,Kidney Stone,Elective,Hope Multispecialty Hospital,115584,14,Normal
+P0347,51,Male,AB+,Heart Disease,Urgent,Riverbank Clinic,78706,4,Abnormal
+P0348,74,Male,A+,Heart Disease,Emergency,Green Valley Medical Center,81305,3,Inconclusive
+P0349,3,Male,A+,Anemia,Urgent,Metro Care Hospital,22124,2,Inconclusive
+P0350,84,Female,AB-,Asthma,Urgent,Green Valley Medical Center,34744,5,Abnormal
+P0351,7,Other,B-,Asthma,Urgent,Green Valley Medical Center,53539,7,Inconclusive
+P0352,1,Female,B-,Hypertension,Elective,Lakeside Hospital,27288,4,Normal
+P0353,90,Male,B+,Diabetes,Urgent,Green Valley Medical Center,46851,6,Normal
+P0354,12,Female,AB-,Gastritis,Urgent,Riverbank Clinic,68890,12,Normal
+P0355,18,Female,A+,Gastritis,Elective,Sunrise Hospital,58643,11,Abnormal
+P0356,28,Male,O-,Arthritis,Emergency,Green Valley Medical Center,71984,11,Normal
+P0357,16,Male,O+,Asthma,Urgent,Sunrise Hospital,72191,10,Normal
+P0358,83,Other,AB+,Migraine,Elective,City General Hospital,22698,2,Inconclusive
+P0359,27,Female,O+,Migraine,Urgent,City General Hospital,54913,9,Normal
+P0360,50,Other,A-,Anemia,Elective,City General Hospital,23759,2,Abnormal
+P0361,17,Male,B+,Arthritis,Urgent,Green Valley Medical Center,51791,7,Normal
+P0362,9,Female,A+,Kidney Stone,Urgent,Riverbank Clinic,40407,1,Inconclusive
+P0363,54,Female,B+,Heart Disease,Urgent,Green Valley Medical Center,100308,7,Abnormal
+P0364,66,Other,AB-,Hypertension,Urgent,Green Valley Medical Center,33981,4,Abnormal
+P0365,31,Male,A-,Gastritis,Urgent,City General Hospital,10213,1,Abnormal
+P0366,16,Other,A+,Asthma,Emergency,Lakeside Hospital,24947,1,Abnormal
+P0367,67,Male,B+,Heart Disease,Urgent,Sunrise Hospital,139993,13,Inconclusive
+P0368,16,Male,AB+,Migraine,Elective,Green Valley Medical Center,38448,13,Abnormal
+P0369,81,Other,AB-,Kidney Stone,Emergency,Lakeside Hospital,49121,2,Inconclusive
+P0370,48,Female,A-,Asthma,Emergency,City General Hospital,39202,3,Normal
+P0371,32,Male,B+,Diabetes,Emergency,City General Hospital,23695,1,Inconclusive
+P0372,29,Other,AB-,Gastritis,Urgent,Green Valley Medical Center,29715,6,Inconclusive
+P0373,16,Female,B-,Arthritis,Elective,City General Hospital,57875,9,Abnormal
+P0374,60,Male,AB-,Hypertension,Emergency,Lakeside Hospital,65057,14,Normal
+P0375,26,Male,B-,Arthritis,Urgent,Hope Multispecialty Hospital,49398,5,Inconclusive
+P0376,26,Female,B+,Anemia,Emergency,Central Medical Institute,70915,12,Normal
+P0377,70,Female,AB-,Pneumonia,Emergency,Central Medical Institute,75785,6,Inconclusive
+P0378,14,Male,O-,Migraine,Emergency,Sunrise Hospital,27782,4,Inconclusive
+P0379,12,Male,AB-,Migraine,Urgent,Green Valley Medical Center,19263,1,Inconclusive
+P0380,65,Female,A+,Hypertension,Urgent,Sunrise Hospital,30691,3,Normal
+P0381,34,Other,AB-,Migraine,Urgent,Lakeside Hospital,57698,14,Abnormal
+P0382,10,Other,A-,Pneumonia,Emergency,Green Valley Medical Center,60206,4,Normal
+P0383,60,Other,AB-,Anemia,Emergency,Lakeside Hospital,32768,6,Abnormal
+P0384,34,Female,AB+,Anemia,Elective,City General Hospital,43555,14,Normal
+P0385,19,Male,O+,Arthritis,Elective,City General Hospital,29490,2,Inconclusive
+P0386,34,Male,O-,Migraine,Elective,Metro Care Hospital,43677,14,Normal
+P0387,14,Female,A+,Anemia,Emergency,Metro Care Hospital,77953,13,Normal
+P0388,52,Other,A-,Pneumonia,Elective,Riverbank Clinic,75992,6,Normal
+P0389,9,Female,A-,Diabetes,Urgent,Green Valley Medical Center,39045,4,Normal
+P0390,7,Other,O+,Anemia,Urgent,City General Hospital,29546,3,Abnormal
+P0391,23,Male,AB+,Gastritis,Urgent,Sunrise Hospital,25140,6,Normal
+P0392,80,Male,O-,Kidney Stone,Urgent,Lakeside Hospital,72665,10,Normal
+P0393,36,Female,B-,Hypertension,Elective,City General Hospital,34402,7,Abnormal
+P0394,62,Male,AB-,Arthritis,Urgent,Riverbank Clinic,68940,9,Normal
+P0395,41,Male,A+,Diabetes,Urgent,Hope Multispecialty Hospital,41450,10,Inconclusive
+P0396,21,Female,AB+,Pneumonia,Elective,City General Hospital,54392,2,Normal
+P0397,50,Female,AB-,Kidney Stone,Elective,Hope Multispecialty Hospital,51951,6,Inconclusive
+P0398,90,Female,B-,Diabetes,Urgent,Riverbank Clinic,47984,6,Normal
+P0399,5,Other,B-,Anemia,Emergency,Lakeside Hospital,17871,2,Normal
+P0400,79,Male,B+,Arthritis,Urgent,City General Hospital,38549,4,Normal
